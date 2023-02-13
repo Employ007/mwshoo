@@ -26,7 +26,7 @@ export default function Navbar() {
                     
                 </div>
                 <div className="vl"></div>
-                <div className='third2'>Become a Supplier</div>
+                <a className='anchor' href="/becomeseller"><div className='third2'>Become a Supplier</div></a>
                 <div className="vl1"></div>
                 <div className='third3'>
                    
