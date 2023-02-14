@@ -69,7 +69,7 @@ export default function Signup() {
                 <div className='num'>
                     <div className='yup'>PK +92
                    <hr className='underline' /></div>
-                    <div className='comp'> <input type="text" placeholder='Phone Number' />
+                    <div className='comp'> <input type="number" placeholder='Phone Number' />
                     <hr className='underline' /></div>
                 </div>
                 <div className='tap'> <button>Send OTP</button></div>

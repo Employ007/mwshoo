@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
+import Accupressure from "./Components/Accupressure";
 // import Section1 from "./Components/Section1";
 // import Section2 from "./Components/Section2";
 // import Section3 from "./Components/Section3";
@@ -10,6 +11,10 @@ import "./App.css";
 
 import Becomeaseller from "./Components/Becomeaseller";
 import First from "./Components/First";
+import NewArival from "./Components/NewArival";
+import Price from "./Components/Price";
+// import Form2 from "./Components/Form2";
+import Relevence from "./Components/Relevence";
 import Signup from "./Components/Signup";
 import Startselling from "./Components/Startselling";
 function App() {
@@ -23,12 +28,18 @@ function App() {
          
           <Route exact path="/" element={<First />} />
           <Route exact path="/becomeaseller" element={<Becomeaseller/>} />
-
-
+          <Route exact path="/relevence" element={<Relevence/>}/>
+          <Route exact path="/newarrival" element = {<NewArival/>}/>
+          <Route exact path="/accupressure" element ={<Accupressure/>}/>
           <Route exact path="/signup" element={<Signup />} />
           <Route exact path="/startselling" element={<Startselling/>}/>
           <Route exact path = "/becomeseller" element={ <Becomeaseller/>}/>
+          <Route exact path='/price' element={<Price/>}/>
         </Routes>
+       
+      
+        
+       
       </BrowserRouter>
     </>
   );

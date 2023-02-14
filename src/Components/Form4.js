@@ -5,9 +5,6 @@ import { AiFillStar } from 'react-icons/ai';
 import { RiArrowDropDownLine } from 'react-icons/ri';
 import { RiArrowDropUpLine } from 'react-icons/ri';
 
-
-
-// import {MdCheckBoxOutlineBlank} from 'react-icons/md';
 export function hellman(){
     let hellman1 = document.getElementById('MoonBlood');
     if(hellman1.style.display==='flex'){
@@ -46,22 +43,10 @@ export function top(){
     canon.style.display='none'
    }
 }
-// export function shore(){
-    
-//     let  mars = document.getElementById('madman');
-  
-       
-//     if(mars.style.dispaly ==='block'){
-//         mars.style.display = 'none';
-//     }
-//     else{
-//         mars.style.display = 'block'
-//     }
-   
-// }
 
-export default function FormCard() {
-    // let sox = document.getElementById('madman');
+
+export default function Form4() {
+   
     const useToggle =(initialState = false)=>{
     const [state , setState]= useState(initialState)
     const toggle = useCallback(()=> setState((state)=>!state),[]);
@@ -80,15 +65,12 @@ export default function FormCard() {
         <div className="formin">
             <div className="one">
                 <div className='flexj'>
-                    <p className='slass'>Sort by :</p>
+                    <p className='slass'>Sort by : </p>
+                    <p className='a'>Price (Low to High)</p>
                 </div>
                 <div className='divsv1'><RiArrowDropDownLine id='sv'  onClick={handleClick}  /></div>
                 <div className='divsv2'><RiArrowDropUpLine id='sv1'  /></div>
-                {/* <select className='rolo' name="select" id="rollover" >
-                    {/* <option value="opt1"><div className='widi'>Relevance</div></option>
-                    <option value="opt2">New Arrivals</option>
-                    <option value="opt3"> Price (Low to High)</option> */}
-                {/* </select> */}
+                
             </div>
             <div id="display">
                 <div className='nano' id='rel'  ><Link to='/relevence'> Relevance</Link></div>
@@ -101,8 +83,7 @@ export default function FormCard() {
                 <hr className="line" />
                 <div className="incon">
                     <div className='cat'>Category:</div>
-                    {/* <div className='divsv3'><RiArrowDropDownLine id='sv2' /></div>
-                    <div className='divsv4'><RiArrowDropUpLine id='sv3' /></div> */}
+                
                     
 <div className='rolo1' onClick={top} name="select" id="rollover"  >
 <div className='divsv3' id='divo' ><RiArrowDropDownLine id='sv2' /></div>
@@ -137,7 +118,7 @@ export default function FormCard() {
                         <div className="mad">Bike Covers</div>
                     </div>
                     <div className="cont3">
-                        <div className="check"><input type="checkbox" /></div>
+                        <div className="check"><a href='/'><input type="checkbox" /></a></div>
                         <div className="mad">Bedsheets</div>
                     </div>
                     </div>
@@ -155,16 +136,10 @@ export default function FormCard() {
 
                     <div className='cat1'>Gender :</div>
                      <div className='divsv5' onClick={hellman}><RiArrowDropDownLine  id='sv4' /></div>
-                    {/* <div className='divsv6'><RiArrowDropUpLine  id='sv5' /></div>  */}
 
 
                 </div>
-                {/* <div className='bub'>
-                    <div className="a1">Girls</div>
-                    <div className="a2">Boys</div>
-                    <div className="a3">Men</div>
-                    <div className="a4">Women</div>
-                </div> */}
+              
                 <div id='MoonBlood'>
                     <div className="upmoon">Boys</div>
                     <div className="upmoon">Girls</div>
@@ -204,7 +179,7 @@ export default function FormCard() {
 
         <div className="cards">
         <div className="carda">
-            <div className='card1img'><img src="https://images.meesho.com/images/products/193737749/jcnvr_400.jpg" alt="" /></div>
+            <div className='card1img'><img src="https://images.meesho.com/images/products/151088960/zizn0_400.webp" alt="" /></div>
             <div className='card1'>
                 <div className='headi'>New Collections of face ...</div>
                 <div className='flexi'>
@@ -221,7 +196,7 @@ export default function FormCard() {
                     </div>
                 </div>
             </div>          <div className="carda">
-            <div className='card1img'><img src="https://images.meesho.com/images/products/193737749/jcnvr_400.jpg" alt="" /></div>
+            <div className='card1img'><img src="https://images.meesho.com/images/products/151088960/zizn0_400.webp" alt="" /></div>
             <div className='card1'>
                 <div className='headi'>New Collections of face ...</div>
                 <div className='flexi'>
@@ -238,7 +213,7 @@ export default function FormCard() {
                     </div>
                 </div>
             </div>          <div className="carda">
-            <div className='card1img'><img src="https://images.meesho.com/images/products/193737749/jcnvr_400.jpg" alt="" /></div>
+            <div className='card1img'><img src="https://images.meesho.com/images/products/223256278/0eywz_400.webp" alt="" /></div>
             <div className='card1'>
                 <div className='headi'>New Collections of face ...</div>
                 <div className='flexi'>
@@ -255,7 +230,7 @@ export default function FormCard() {
                     </div>
                 </div>
             </div>          <div className="carda">
-            <div className='card1img'><img src="https://images.meesho.com/images/products/193737749/jcnvr_400.jpg" alt="" /></div>
+            <div className='card1img'><img src="https://images.meesho.com/images/products/14461386/w6ozx_400.webp" alt="" /></div>
             <div className='card1'>
                 <div className='headi'>New Collections of face ...</div>
                 <div className='flexi'>

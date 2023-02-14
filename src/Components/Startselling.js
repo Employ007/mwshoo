@@ -15,13 +15,13 @@ export default function Startselling() {
                 <div className='mixer'>
                 <div className='nomb'>
                     <div className='inputcover1'>
-                        <input type="text" placeholder='Enter Mobile Number' />
+                        <input type="number" placeholder='Enter Mobile Number' />
                     </div>
                     <div>
                         <button className='aim'>Send OTP</button>
                     </div>
                 </div>
-                <div className='inputcover'><input type="text" placeholder='Enter OTP'/></div>
+                <div className='inputcover'><input type="number" placeholder='Enter OTP'/></div>
                 <div className='inputcover'><input type="text" placeholder='Enter Email'/></div>
                 <div className='azan'>
                 <div className='sho'>
