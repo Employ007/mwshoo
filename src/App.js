@@ -10,6 +10,7 @@ import Accupressure from "./Components/Accupressure";
 // import Navbar from "./Components/Navbar";
 
 import Becomeaseller from "./Components/Becomeaseller";
+import Click from "./Components/Click";
 import First from "./Components/First";
 import NewArival from "./Components/NewArival";
 import Price from "./Components/Price";
@@ -35,6 +36,7 @@ function App() {
           <Route exact path="/startselling" element={<Startselling/>}/>
           <Route exact path = "/becomeseller" element={ <Becomeaseller/>}/>
           <Route exact path='/price' element={<Price/>}/>
+          <Route exact path="/click/1" element={<Click/>}/>
         </Routes>
        
       
